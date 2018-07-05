@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">College Finance Assistant</string>
+    <string name="groupButton">Group Funds</string>
+    <string name="updateButton">Update Profile</string>
+    <string name="ExpensesButton">Expenses</string>
+    <string name="Placeholder">(StartsEmpty)</string>
+    <string name="Submit">Submit</string>
+    <string name="Cancel">Cancel</string>
+
+</resources>

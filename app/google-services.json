@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "866431709587",
+    "firebase_url": "https://financeapp-1077b.firebaseio.com",
+    "project_id": "financeapp-1077b",
+    "storage_bucket": "financeapp-1077b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866431709587:android:412eb5aa8e51a75a",
+        "android_client_info": {
+          "package_name": "com.example.matthewspc.financeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866431709587-t366p8vvtob1o6o46acucv609sl61n4c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.matthewspc.financeapp",
+            "certificate_hash": "882ccf29a83342f54252147a8416f932e1163708"
+          }
+        },
+        {
+          "client_id": "866431709587-3anosq37l48r5l77bpp1gu96mi2ilv1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.matthewspc.financeapp",
+            "certificate_hash": "1c397f631b7641775da27a78297fd378952fb119"
+          }
+        },
+        {
+          "client_id": "866431709587-fg88v7583h9crq6sv80kbevbbljf5pv8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.matthewspc.financeapp",
+            "certificate_hash": "0823f27e5f867f199edc145f1b313c8e34b468c3"
+          }
+        },
+        {
+          "client_id": "866431709587-n6hmif8mqbqflf40quormqvg38pst87r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.matthewspc.financeapp",
+            "certificate_hash": "0bb9d1c16929fb11455b64b1cbd5d949e09b551c"
+          }
+        },
+        {
+          "client_id": "866431709587-c4fboafp285qi3h8i75m0eem9g5f6634.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.matthewspc.financeapp",
+            "certificate_hash": "0a9d0114344d45af6413d90e8f6f4d7a84dc9f88"
+          }
+        },
+        {
+          "client_id": "866431709587-q14i13g7745fiebvr6dk0k8h6pbadrtm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBnYD_nloV22xifNG9n3XhWMKAWLe88j8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866431709587-q14i13g7745fiebvr6dk0k8h6pbadrtm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

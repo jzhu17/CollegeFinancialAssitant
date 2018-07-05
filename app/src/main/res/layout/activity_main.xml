@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.matthewspc.financeapp.MainActivity">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/idPieChart"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+
+        android:layout_above="@+id/expensesButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="94dp"></com.github.mikephil.charting.charts.PieChart>
+
+    <TextView
+        android:id="@+id/goalDateLabel"
+        android:layout_width="70dp"
+        android:layout_height="24dp"
+        android:layout_above="@+id/budgetLeftResult"
+        android:layout_toLeftOf="@+id/goalDate"
+        android:layout_toStartOf="@+id/goalDate"
+        android:text="Goal Date: " />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/groupButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="updateProfile"
+        android:text="@string/updateButton" />
+
+    <Button
+        android:id="@+id/groupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="groupsButton"
+        android:text="@string/groupButton" />
+
+    <Button
+        android:id="@+id/expensesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/updateButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="expensesButton"
+        android:text="@string/ExpensesButton" />
+
+    <TextView
+        android:id="@+id/budgetLeftLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/budgetLeftResult"
+        android:layout_alignBottom="@+id/budgetLeftResult"
+        android:layout_alignLeft="@+id/goalDateLabel"
+        android:layout_alignStart="@+id/goalDateLabel"
+        android:text="Budget Left" />
+
+    <TextView
+        android:id="@+id/budgetLeftResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/expensesButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        tools:text="(Budget left)" />
+
+    <TextView
+        android:id="@+id/goalDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/goalDateLabel"
+        android:layout_alignBottom="@+id/goalDateLabel"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        tools:text="Goal date2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/goalDateLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="36dp"
+        android:text="Groceries, Dining Out" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:text="Rent, Utilities" />
+
+    <Button
+        android:id="@+id/notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:onClick="notifyMe"
+        android:text="Notify Me" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/goalDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Travel, Clothes" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/budgetLeftLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Other" />
+
+
+</RelativeLayout>
